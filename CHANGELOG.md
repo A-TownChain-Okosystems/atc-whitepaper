@@ -1,24 +1,18 @@
-# Changelog
+# Changelog — atc-whitepaper
 
-## v2.1.0 — 09.06.2026 (Feature-Complete)
-- ✅ 10 Security-Lücken geschlossen
-- ✅ ATCLang Security Analyzer v1.0.0 (15 Checks)
-- ✅ 21 GitHub-Repositories (10 SW + 10 Wiki + 1 Whitepaper)
-- ✅ 47+ Wiki-Dokumentationsseiten
-- ✅ Franchise Factory v1.0.0
-- ✅ Vollständiges Whitepaper (99 Kapitel, 80KB)
-- ✅ 23/23 Tests
+## v3.0.0-dev — 10.06.2026
+- Monorepo v3.0.0 Restrukturierung
+- Cross-Chain Bridge ETH + Solana
+- Federated Learning (FedAvg, On-Chain)
+- atcpkg Package Manager + Registry API
+- Gas-Fee Engine EIP-1559 (50% Burn)
+- MultiSig Wallet M-of-N
+- ShivaOS Syscall-Tabelle (20 Syscalls)
+- Shivamon Breeding Engine + DNA-Vererbung
+- Build System (Docker/AppImage/EXE/.deb)
+- 5-Node Testnet Docker Compose
+- 154KB | 200 Kapitel | 24 Repos
 
-## v2.0.0 — 08.06.2026
-- ATCLang v0.2.0 (Lexer, Parser, Compiler, VM, REPL, Stdlib)
-- ShivaOS Kernel, ATCFS, ATCNet, ShivaConsensus
-- Gemini AI Integration (BYOK)
-- Smart Contracts ATC-8300/9000/9900
-- API Gateway Port 4000
-- 8-Repo-Modulstruktur
-
-## v1.0.0 — 06.06.2026
-- Initiales Ökosystem
-- ShivaConsensus (PoH+PoS+PoW)
-- ECDSA Wallet
-- Bootstrap Node
+## v2.1.0 — 09.06.2026
+- Erstveröffentlichung (80KB, 24 Kapitel)
+- Security Audit, ATCLang Analyzer
