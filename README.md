@@ -1,4 +1,11 @@
 # 📄 A-TownChain Whitepaper v3.0.0
+
+> ## 🤖 Fuer KI-Agenten — Pflichtlektuere vor jeder Aenderung
+> Governance liegt zentral im Wiki-Repo `a-townchain-os-docs`:
+> 1. [`AGENT_POLICY.md`](https://github.com/A-TownChain-Okosystems/a-townchain-os-docs/blob/main/docs/AGENT_POLICY.md) — verbindliche Regeln, Reality-Check, Konsolidierungsziel
+> 2. [`AGENT_COORDINATION.md`](https://github.com/A-TownChain-Okosystems/a-townchain-os-docs/blob/main/docs/AGENT_COORDINATION.md) — wer arbeitet gerade woran, Todos, Agent-IDs
+> 3. [`DECISIONS_REGISTER.md`](https://github.com/A-TownChain-Okosystems/a-townchain-os-docs/blob/main/docs/DECISIONS_REGISTER.md) — verbindliche Architektur-Entscheidungen
+
 ![Version](https://img.shields.io/badge/version-3.0.0-a259ff?style=for-the-badge)
 ![Size](https://img.shields.io/badge/whitepaper-123KB-ff6b35?style=for-the-badge)
 ![Status](https://img.shields.io/badge/v2.2.0-feature--complete-00ffcc?style=for-the-badge)
