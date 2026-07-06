@@ -1709,7 +1709,7 @@ impl pallet_evm::Config for Runtime {
 ```
 kai-solidity/
 +-- contracts/
-|   +-- ATCToken.sol          # ERC-20 (ATC-8300 kompatibel)
+|   +-- ATC Token.sol          # ERC-20 (ATC-8300 kompatibel)
 |   +-- ShivamonNFT.sol       # ERC-721 + ERC-2981 Royalties
 |   +-- KAIGovernance.sol     # Governor Bravo kompatibel
 |   +-- KAIMarketplace.sol    # ERC-721 Marketplace
@@ -1719,7 +1719,7 @@ kai-solidity/
 +-- hardhat.config.ts
 ```
 
-### ATCToken.sol (ERC-20)
+### ATC Token.sol (ERC-20)
 
 ```solidity
 // SPDX-License-Identifier: Apache-2.0
@@ -1730,7 +1730,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
 
-contract ATCToken is ERC20, ERC20Permit, ERC20Votes, AccessControl {
+contract ATC Token is ERC20, ERC20Permit, ERC20Votes, AccessControl {
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     bytes32 public constant BURNER_ROLE = keccak256("BURNER_ROLE");
     uint256 public constant MAX_SUPPLY = 1_000_000_000 * 10**18;
@@ -2063,7 +2063,7 @@ contract MultiSigWallet {
 # 🌐 A-TownChain Testnet — Technische Dokumentation
 
 > **Milestone:** v2.2.0 · **Issues:** #8, #14–#19
-> **Datei:** `docs/architecture/TESTNET.md`
+> **Datei:** `docs/architecture/Testnet.md`
 
 ---
 
@@ -2100,7 +2100,7 @@ Das A-TownChain Testnet ist ein **lokales P2P-Netzwerk** aus 5 Nodes, das mit ei
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    TESTNET NETZWERK                     │
+│                    Testnet NETZWERK                     │
 │                                                         │
 │   bootstrap-001:5005  ←── Alle neuen Nodes melden hier │
 │         ↕    ↕    ↕                                     │
@@ -4103,7 +4103,7 @@ Issue #12 (Solidity Contracts) offen — aber kein Deployment-Plan, keine Layer-
 - Frontier-Pallet Setup
 - Hardhat-Konfiguration
 - MetaMask-Kompatibilitaet
-- Solidity Contracts: ATCToken.sol, ShivamonNFT.sol, KAIGovernance.sol
+- Solidity Contracts: ATC Token.sol, ShivamonNFT.sol, KAIGovernance.sol
 
 **Fehlende Roadmap-Eintraege:**
 - Sprint 2.9: Frontier EVM-Pallet Integration
